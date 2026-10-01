@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Keyboard Piano</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>My Keyboard Piano</h1>
+  <p class="instructions">Press A S D F G H J K to play</p>
+
+  <!-- Status message: updated by JavaScript -->
+  <p id="status">Press a key to start...</p>
+
+  <!-- The piano. Each key stores its keyboard letter in a data-key attribute -->
+  <div class="piano">
+    <div class="key" data-key="a">
+      <span class="note">Do</span>
+      <span class="letter">A</span>
+    </div>
+    <div class="key" data-key="s">
+      <span class="note">Re</span>
+      <span class="letter">S</span>
+    </div>
+    <div class="key" data-key="d">
+      <span class="note">Mi</span>
+      <span class="letter">D</span>
+    </div>
+    <div class="key" data-key="f">
+      <span class="note">Fa</span>
+      <span class="letter">F</span>
+    </div>
+    <div class="key" data-key="g">
+      <span class="note">Sol</span>
+      <span class="letter">G</span>
+    </div>
+    <div class="key" data-key="h">
+      <span class="note">La</span>
+      <span class="letter">H</span>
+    </div>
+    <div class="key" data-key="j">
+      <span class="note">Ti</span>
+      <span class="letter">J</span>
+    </div>
+    <div class="key" data-key="k">
+      <span class="note">Do</span>
+      <span class="letter">K</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
